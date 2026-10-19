@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — V-Reseller Dashboard</title>
+<meta name="description" content="Politique de confidentialité de l'extension Chrome V-Reseller Dashboard : traitement 100 % local, aucune donnée envoyée à l'éditeur.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f2933; --muted: #5f6b76; --line: #e3e7eb;
+    --accent: #007782; --box: #f2f8f8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111518; --fg: #e6eaed; --muted: #a3adb6; --line: #2a3238; --accent: #4fc3cc; --box: #172024; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 6px; }
+  h2 { font-size: 1.2rem; margin: 36px 0 8px; padding-top: 12px; border-top: 1px solid var(--line); color: var(--accent); }
+  h3 { font-size: 1rem; margin: 20px 0 6px; }
+  p, li { margin: 6px 0; }
+  ul { padding-left: 22px; }
+  .meta { color: var(--muted); font-size: .92rem; margin: 0 0 24px; }
+  .summary { background: var(--box); border-left: 4px solid var(--accent); padding: 14px 18px; border-radius: 6px; }
+  .summary ul { margin: 4px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: .94rem; margin: 10px 0; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  th { font-weight: 600; }
+  .scroll { overflow-x: auto; }
+  a { color: var(--accent); }
+  code { font-size: .9em; background: var(--box); padding: 1px 5px; border-radius: 4px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: .88rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Politique de confidentialité</h1>
+  <p class="meta">Extension Chrome <strong>V-Reseller Dashboard</strong> · Dernière mise à jour : 19 octobre 2026</p>
+  <p class="meta"><a href="en.html" lang="en">🇬🇧 English version</a></p>
+
+  <div class="summary">
+    <strong>En bref</strong>
+    <ul>
+      <li>L'extension fonctionne <strong>entièrement dans ton navigateur</strong>. Elle n'a pas de serveur.</li>
+      <li><strong>Aucune donnée n'est envoyée à l'éditeur</strong> ni à un tiers. Il n'y a ni publicité, ni statistiques d'utilisation, ni pisteur.</li>
+      <li>Les seules connexions réseau partent vers <strong>Vinted</strong>, avec ta propre session, pour lire tes ventes et ton portefeuille quand tu lances un export.</li>
+      <li>Tes réglages et tes coûts d'achat restent <strong>sur ton ordinateur</strong>. Tu peux tout effacer à tout moment.</li>
+    </ul>
+  </div>
+
+  <h2>1. Qui est responsable de l'extension</h2>
+  <p>V-Reseller Dashboard est développée et publiée par <strong>Simon RIHOUEY LEREBOURG</strong> (France).</p>
+  <p>Contact : <a href="mailto:contact.vreseller@gmail.com">contact.vreseller@gmail.com</a></p>
+  <p>V-Reseller Dashboard est un outil indépendant. Il n'est ni affilié à Vinted, ni approuvé, ni soutenu par Vinted. « Vinted » est une marque de son propriétaire.</p>
+
+  <h2>2. Ce que fait l'extension</h2>
+  <p>L'extension aide les vendeurs Vinted à :</p>
+  <ul>
+    <li>créer un tableau de bord Excel de leurs ventes (chiffre d'affaires, marges, statistiques) ;</li>
+    <li>préparer un journal comptable (fichier Excel ou fichier FEC).</li>
+  </ul>
+  <p>Elle ne fait rien tant que tu n'as pas cliqué sur l'un de ses boutons. Elle n'agit que sur l'onglet Vinted ouvert à ce moment-là.</p>
+
+  <h2>3. Les données traitées</h2>
+  <h3>3.1 Données lues sur ton compte Vinted (uniquement quand tu lances une action)</h3>
+  <ul>
+    <li><strong>Tes ventes :</strong> titre de l'article, prix, statut de la commande, date, numéro et lien de la commande.</li>
+    <li><strong>L'historique de ton portefeuille Vinted :</strong> date, montant et libellé de chaque mouvement (ventes encaissées, achats de vitrine ou de mise en avant, virements vers ta banque). Les libellés de virement peuvent contenir le début et la fin de ton IBAN tel que Vinted les affiche, en partie masqué (par exemple « FR76 **** 0517 »).</li>
+    <li><strong>Tes rapports annuels de revenus Vinted (PDF), si tu choisis de les importer :</strong> montants et dates des paiements. L'extension les utilise pour contrôler les totaux.</li>
+  </ul>
+  <p>Ces lectures passent par les pages et les adresses de Vinted (domaines <code>vinted.*</code>), avec la session sur laquelle tu es déjà connecté dans ton navigateur. L'extension ne lit jamais ton mot de passe et ne le demande jamais. Elle ne modifie rien sur ton compte Vinted : elle ne fait que consulter tes informations.</p>
+
+  <h3>3.2 Données que tu saisis toi-même</h3>
+  <ul>
+    <li>tes coûts d'achat (par vente, par règle de mot-clé ou par lot) ;</li>
+    <li>tes réglages : numéros de comptes, code journal, TVA, période, langue de l'interface ;</li>
+    <li>les frais que tu ajoutes à la main (achats pour revente, vitrine, etc.).</li>
+  </ul>
+
+  <h3>3.3 Ce que l'extension ne collecte pas</h3>
+  <p>Elle ne collecte rien d'autre :</p>
+  <ul>
+    <li>ni identifiants, ni mots de passe ;</li>
+    <li>ni données bancaires complètes ;</li>
+    <li>ni messages, ni adresses postales ;</li>
+    <li>ni historique de navigation, ni localisation ;</li>
+    <li>ni rien sur les autres sites que tu visites.</li>
+  </ul>
+
+  <h2>4. Où sont stockées les données</h2>
+  <p>Tout est enregistré <strong>localement</strong>, dans l'espace de stockage de l'extension dans Chrome (<code>chrome.storage.local</code>), sur ton ordinateur :</p>
+  <div class="scroll">
+  <table>
+    <tr><th>Donnée</th><th>Pourquoi</th></tr>
+    <tr><td>Liste de tes dernières ventes (titre, prix, statut, date, lien, coût)</td><td>Remplir l'onglet « Coûts » et régénérer l'Excel sans relire Vinted</td></tr>
+    <tr><td>Coûts d'achat, règles de mot-clé</td><td>Calculer tes marges</td></tr>
+    <tr><td>Réglages comptables et frais saisis à la main</td><td>Préparer le journal comptable</td></tr>
+    <tr><td>Totaux de tes rapports annuels Vinted</td><td>Contrôler que les chiffres sont justes</td></tr>
+    <tr><td>Mois passés de l'historique du portefeuille (copie locale)</td><td>Éviter de redemander à Vinted des mois déjà lus, donc moins de requêtes</td></tr>
+    <tr><td>Total annuel des achats de vitrine / mise en avant</td><td>Calculer ton bénéfice net dans le tableau de bord</td></tr>
+  </table>
+  </div>
+  <p>Les fichiers que tu génères (Excel, FEC, sauvegarde <code>.json</code>, fichier de diagnostic) sont enregistrés dans ton dossier de téléchargements. Ce que tu en fais ensuite te regarde : les envoyer à un comptable, par exemple.</p>
+
+  <h2>5. Partage des données</h2>
+  <p><strong>Aucune donnée n'est vendue, louée, partagée ni transmise</strong> à l'éditeur ou à un tiers. L'extension ne contient aucun outil de mesure d'audience, de publicité ou de suivi. Elle ne charge aucun code depuis Internet : tout son code, y compris les bibliothèques ExcelJS et pdf.js qui servent à créer les fichiers Excel et à lire les PDF, est inclus dans l'extension.</p>
+  <p>Le fichier de diagnostic, qui sert au support, n'est jamais envoyé automatiquement. Il est téléchargé sur ton ordinateur, et c'est toi qui décides de le joindre ou non à un e-mail. Il contient des titres de ventes et des extraits techniques des pages Vinted, qui peuvent inclure le pseudo de tes acheteurs : relis-le avant de l'envoyer. Les données des réponses de Vinted y sont réduites à leur structure, et les champs de nom, d'adresse et d'e-mail y sont masqués.</p>
+
+  <h2>6. Utilisation limitée (règles du Chrome Web Store)</h2>
+  <p>L'utilisation des informations obtenues par l'extension respecte la <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use" rel="noopener">règle d'utilisation limitée</a> du Programme pour les développeurs du Chrome Web Store. Les données servent uniquement à fournir les fonctions décrites ci-dessus. Elles ne sont ni transférées, ni utilisées pour de la publicité, ni pour évaluer une solvabilité ou accorder un prêt. Personne ne les lit.</p>
+
+  <h2>7. Autorisations demandées et pourquoi</h2>
+  <ul>
+    <li><strong>activeTab</strong> et <strong>scripting</strong> : lancer la lecture de tes ventes sur l'onglet Vinted ouvert, seulement quand tu cliques sur un bouton.</li>
+    <li><strong>storage</strong> : enregistrer tes réglages et tes coûts sur ton ordinateur.</li>
+    <li><strong>Accès aux sites Vinted</strong> (<code>vinted.fr</code>, <code>.com</code>, <code>.co.uk</code>, <code>.es</code>, <code>.de</code>, <code>.it</code>, <code>.pt</code>) : lire tes ventes et ton portefeuille. L'extension n'accède à aucun autre site.</li>
+  </ul>
+
+  <h2>8. Combien de temps les données sont gardées</h2>
+  <p>Les données restent sur ton ordinateur jusqu'à ce que tu les effaces. Une partie est remplacée à chaque export : la liste des ventes et la copie locale du portefeuille.</p>
+  <p>Pour tout effacer :</p>
+  <ul>
+    <li>désinstalle l'extension : Chrome supprime alors tout son stockage ;</li>
+    <li>ou utilise le bouton d'effacement de la mémoire du portefeuille dans l'onglet Compta ;</li>
+    <li>ou supprime une à une tes règles de coût dans l'onglet Coûts.</li>
+  </ul>
+
+  <h2>9. Tes droits (RGPD)</h2>
+  <p>L'éditeur ne reçoit et ne conserve aucune de tes données : il n'a donc rien à te transmettre, corriger ou supprimer. Tu gardes le contrôle total sur ton ordinateur (voir la section 8).</p>
+  <p>Pour toute question, écris à <a href="mailto:contact.vreseller@gmail.com">contact.vreseller@gmail.com</a>. Tu peux aussi saisir la CNIL (<a href="https://www.cnil.fr" rel="noopener">www.cnil.fr</a>).</p>
+  <p>Si tu nous écris par e-mail, ton adresse et ton message servent uniquement à te répondre. Ils sont supprimés une fois la demande réglée, et au plus tard 12 mois après.</p>
+
+  <h2>10. Sécurité</h2>
+  <p>Comme rien ne quitte ton navigateur, la sécurité de tes données dépend surtout de celle de ton ordinateur et de ton compte. Protège ta session Windows ou macOS par un mot de passe, et fais attention aux fichiers Excel ou FEC que tu partages : ils contiennent tes chiffres de ventes.</p>
+
+  <h2>11. Âge minimum</h2>
+  <p>L'extension s'adresse aux vendeurs qui utilisent Vinted. Vinted réserve son service aux personnes majeures. L'extension n'est donc pas destinée aux mineurs.</p>
+
+  <h2>12. Cette page</h2>
+  <p>Cette page est hébergée sur GitHub Pages. Comme tout hébergeur, GitHub peut enregistrer des informations techniques sur les visiteurs (adresse IP, par exemple). Voir la <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">déclaration de confidentialité de GitHub</a>.</p>
+
+  <h2>13. Modifications</h2>
+  <p>Cette politique peut évoluer, par exemple si une offre payante est ajoutée. Toute modification sera publiée sur cette page avec une nouvelle date de mise à jour. Si une fonction devait un jour envoyer des données hors de ton navigateur, elle serait annoncée clairement avant d'être activée.</p>
+
+  <footer>
+    © 2026 Simon RIHOUEY LEREBOURG — V-Reseller Dashboard · <a href="mailto:contact.vreseller@gmail.com">contact.vreseller@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
